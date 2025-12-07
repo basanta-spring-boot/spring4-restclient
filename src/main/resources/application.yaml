@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring4-restclient
+  http:
+    client:
+      base-url: https://jsonplaceholder.typicode.com  # must be exactly here
+      connect-timeout: 500ms
+      read-timeout: 2s
+
+server:
+  port: 9191
+
+
+logging:
+  level:
+    org.springframework.web.service: DEBUG
